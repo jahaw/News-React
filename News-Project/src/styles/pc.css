@@ -1,0 +1,173 @@
+header{
+	padding: 10px 0;
+}
+.logo{
+  align-items: center;
+  display: flex;
+}
+
+.logo img{
+  width: 48px;
+  height: 48px;
+}
+
+.img-wrap{
+  padding-bottom: 5% !important;
+}
+
+.logo span{
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.register{
+  float: right !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item > a , .ant-menu-horizontal > .ant-menu-submenu > a{
+	display: inline-block !important;
+}
+
+.box{
+	padding-top: 10px;
+}
+.leftBox {
+	width: 400px;
+	float: left;
+}
+.carousel{
+	width: 400px;
+	float: left;
+}
+.carousel img{
+	width: 100%;
+}
+
+.topNewsList {
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* 加载时动画 */
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+.topNewsList a {
+    color: #555;
+}
+.topNewsList a:hover{
+	color: #108EE9;
+}
+
+.ant-tabs-bar{
+	margin-bottom: 5px;
+}
+
+.tabs_news {
+    padding-left: 10px;
+    width: 440px;
+    float: left;
+}
+
+.tabs_news li {
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 417px;
+    text-overflow: ellipsis;
+}
+
+.ant-card-body{
+	width: 420px;
+	padding: 10px;
+}
+
+.ant-card{
+	border: 0;
+}
+
+.clearfix{
+  margin-top: 20px;
+}
+
+.imageblock {
+    float: left;
+}
+
+.custom-card {
+    padding: 5px;
+}
+
+.custom-card p {
+    color: #999;
+}
+
+.articleContainer{
+  font-size: 14px;
+}
+.articleContainer p {
+  text-indent: 5px;
+}
+.articleContainer img{
+  width: 450px;
+  padding: 5px;
+}
+
